@@ -6,6 +6,7 @@ This document provides an overview of the folder structure used in this project.
 
 ## Folder Structure
 
+```
 training2024-25/
 ├── HTML/
 ├── FLOW_CHARTS/    
@@ -24,6 +25,8 @@ training2024-25/
 │   ├── (13)SinX.js
 │   └── README.md
 └── README.md
+```
 
 ### File Structure
+
 4. *FLOW_CHARTS* : In this folder there is code in javascript which i implemet in figjam.
