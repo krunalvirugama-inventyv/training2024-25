@@ -1,4 +1,4 @@
-# Training_2024_2025
+# training2024-25
 
 # Project Folder Structure
 
@@ -6,9 +6,9 @@ This document provides an overview of the folder structure used in this project.
 
 ## Folder Structure
 
-Trainning_2024_2025/
+training2024-25/
 ├── HTML/
-├──FLOW_CHARTS/    
+├── FLOW_CHARTS/    
 │   ├── (1)AreaOfCircle.js
 │   ├── (2)PerimeterOfCircle.js
 │   ├── (3)MaxNumInTwoNumber.js
@@ -26,7 +26,4 @@ Trainning_2024_2025/
 └── README.md
 
 ### File Structure
-1. *HTML* : In this folder task about html.
-2. *JS* : In this folder there is node enviroment for running javascript.
-3. *BOOTSTRAP* : In this folder task about bootstrap.
 4. *FLOW_CHARTS* : In this folder there is code in javascript which i implemet in figjam.
