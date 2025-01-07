@@ -1,7 +1,7 @@
 # Flowchart
 
 ## Overview
-Tasks in this folder contains executable codes. This codes are created using flowcharts.
+This folder contains executable JavaScript code created based on flowcharts. These flowcharts were designed to outline the logical structure and serve as the foundation for the implementation.
 
 ## Folder Structure
 ```

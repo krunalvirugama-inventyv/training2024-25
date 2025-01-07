@@ -2,7 +2,7 @@
 
 # Project Folder Structure
 
-This document provides an overview of the folder structure used in this project.
+This document outlines the folder structure used in this project.
 
 ## Folder Structure
 
@@ -29,4 +29,4 @@ training2024-25/
 
 ### File Structure
 
-2. *FLOW_CHARTS* : In this folder there is code in javascript which i implemet in figjam.
+2. *FlowChart:* This folder contains JavaScript code implementations for flowcharts, which have been visualized and designed in FigJam.
