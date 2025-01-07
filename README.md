@@ -1,4 +1,4 @@
-# training2024-25
+# Training 2024-25
 
 # Project Folder Structure
 
@@ -8,8 +8,8 @@ This document provides an overview of the folder structure used in this project.
 
 ```
 training2024-25/
-├── HTML/
-├── FLOW_CHARTS/    
+├── HTML_CSS/
+├── FlowChart/    
 │   ├── (1)AreaOfCircle.js
 │   ├── (2)PerimeterOfCircle.js
 │   ├── (3)MaxNumInTwoNumber.js
@@ -29,4 +29,4 @@ training2024-25/
 
 ### File Structure
 
-4. *FLOW_CHARTS* : In this folder there is code in javascript which i implemet in figjam.
+2. *FLOW_CHARTS* : In this folder there is code in javascript which i implemet in figjam.
