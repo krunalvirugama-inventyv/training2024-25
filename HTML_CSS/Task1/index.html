@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-inner">
+            <img src="Logo.svg" alt="Profile Logo">
+            <h1>Krunal Virugama</h1>
+            <p>Krunal Virugama is a versatile professional skilled in full-stack development, specializing in responsive
+                web design, MERN app development, and seamless user experiences. With a strong foundation in Web2 and
+                Web3 technologies, Krunal actively contributes to tech communities by organizing and managing events
+                like blockchain summits Gujarat and developer meetups.</p>
+        </div>
+
+        <div class="tabs">
+            <!-- Login Section -->
+            <details open id="login-details">
+                <summary >Login</summary>
+                <div class="tab-content" id="login">
+                    <h2>Login</h2>
+                    <form>
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </details>
+
+            <!-- Registration Section -->
+            <details id="reg-details">
+                <summary >Registration</summary>
+                <div class="tab-content" id="registration">
+                    <h2>Registration</h2>
+                    <form>
+                        <input type="text" placeholder="Username" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+            </details>
+        </div>
+
+    </div>
+</body>
+
+</html>
