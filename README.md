@@ -33,6 +33,6 @@ training2024-25/
 └── README.md
 ```
 
-### File Structure
+### Folder Overview
 1. *HTML_CSS:* This folder contains task related to HTML and CSS.
 2. *FlowChart:* This folder contains JavaScript code implementations for flowcharts, which have been visualized and designed in FigJam.

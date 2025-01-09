@@ -51,38 +51,37 @@ body {
 .tabs {
     display: flex;
     width: 20%;
+    position: relative;
     background-color: #007BFF;
-    height: 500px;
+    height: 400px;
     justify-content: center;
     border-radius: 15px;
     margin-right: 10px;
-    
 }
 
 summary {
     font-size: 18px;
-    padding: 10px;
+    padding: 20px 10px;
     width: 100%;
     color: #fff;
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #007BFF;
-}
-
-summary:hover {
-    background-color: #0056b3;
-}
-
-details>summary {
+    background-color: #007BFF;  
     list-style: none;
-    border-radius: 15px;
-
+    border-radius: 15px; 
 }
+
+details {
+    width: 90%;
+}
+
 
 details > div {
     width: 95%;
+    left: 2.5%;
+    position:absolute;
     border-radius: 10px;
     margin: 20px auto;
     background-color: #f9f9f9;
@@ -99,18 +98,11 @@ details[open] summary {
     background-color: #0056b3;
 }
 
-details[open] div {
-  display: block;
-}
-
-
 .tab-content {
-    display: none;
     padding: 20px;
     text-align: center;
     color: #333;
 }
-
 
 h2 {
     font-size: 22px;
@@ -142,39 +134,9 @@ form button:hover {
 }
 
 
-#login-details[open]{
-    width: 20%;
-    position: absolute;
-    right: 2;
-}
-
-#login-details[open] > summary{
-    width: 100%;
-    margin-left: 0;
-    padding: 20px;
-}
-
-details > summary{
-    padding: 20px 10px;
-}
-
-#reg-details[open]{
-    width: 20%;
-    position: absolute;
-    right: 2;
-}
-
-#reg-details[open] > summary{
-    width: 100%;
-    margin-left: 0;
-    padding: 20px;
-}
-
 #login-details,#signup-details{
     width: 100%;
   }
-
-
 
 /* Medium and small screens: change direction to column */
 @media (max-width: 768px) {
