@@ -1,3 +1,3 @@
 fn main(){
-    d
+    println!("Hello word")
 }

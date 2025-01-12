@@ -89,7 +89,7 @@ details > div {
     color: #333;   
 }
 
-details>summary::-webkit-details-marker {
+details summary::-webkit-details-marker {
     display: none;
 }
 

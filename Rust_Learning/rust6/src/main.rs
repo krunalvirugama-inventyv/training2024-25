@@ -17,7 +17,7 @@
 
 
 
-// RUST7
+// Value type fix with enum shape
 enum Shape{
     Circle(f64),
     Rectangle(f64,f64), 
