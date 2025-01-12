@@ -1,0 +1,37 @@
+/* Custom Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+summary {
+    cursor: pointer;
+}
+
+details>summary {
+  color : #0d6efd;
+}
+/* Remove default arrow icon in details summary */
+details > summary::-webkit-details-marker {
+    display: none; /* Hides the marker in WebKit-based browsers */
+}
+
+details > summary::marker {
+    display: none; /* Hides the marker in modern browsers */
+}
+
+details > div {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+details[open] summary {
+    color: white;
+    background-color: #0d6efd;
+}
+
+form button:hover {
+    background-color: #0d6efd;
+}
+

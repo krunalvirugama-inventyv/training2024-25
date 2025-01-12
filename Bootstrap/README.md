@@ -3,7 +3,6 @@
 ## Overview
 This folder contains tasks related to HTML and CSS, with implementations styled and structured using **Bootstrap** to create responsive and visually appealing web pages.
 
-
 ## Folder Structure
 ```
 Bootstrap/
