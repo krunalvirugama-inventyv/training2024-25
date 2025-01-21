@@ -141,8 +141,8 @@ fn main() {
         .expect("Index Enter was not a number");
 
     if index < a.len() {
-        let element = a[index];
-        println!("the value of the element at index {index } is : {element}");
+        // let element = a[index];
+        println!("the value of the element at index {} is : {}",index,a[index]);
     
     }
     else {
