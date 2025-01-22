@@ -17,5 +17,5 @@ Javascript/
 
 ## More Information
 
-### What is Bootstrap?
+### What is Javascript?
 JavaScript is a high-level, dynamic programming language primarily used for creating interactive and dynamic content on web pages. It is one of the core technologies of web development, alongside HTML and CSS, enabling the development of rich, interactive, and responsive web applications.

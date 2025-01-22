@@ -30,6 +30,12 @@ training2024-25/
 │   │   ├── Logo.svg           # Logo file used in Task 1
 │   │   └── README.md          # Documentation or instructions for Task 1
 │   └── README.md              # Documentation for the JavaScript directory
+├── Rust_Learning/             # Folder for Rust-related tasks
+│   ├── Rust_Program_Learning_Purpose/     # Folder for Rust program learning purpose
+│   │   ├── .....
+│   ├── rustrangersgame/       # Folder for Rust Rangers Game
+│   │   ├── .....
+│   └── README.md              # Documentation for the JavaScript directory
 ├── FlowChart/                 # Folder for flowchart-related programming tasks
 │   ├── (1)AreaOfCircle.js     # Code to calculate the area of a circle
 │   ├── (2)PerimeterOfCircle.js# Code to calculate the perimeter of a circle
