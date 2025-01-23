@@ -33,7 +33,7 @@ training2024-25/
 ├── Rust_Learning/             # Folder for Rust-related tasks
 │   ├── Rust_Program_Learning_Purpose/     # Folder for Rust program learning purpose
 │   │   ├── .....
-│   ├── rustrangersgame/       # Folder for Rust Rangers Game
+│   ├── rust_rangers/       # Folder for Rust Rangers Game
 │   │   ├── .....
 │   └── README.md              # Documentation for the JavaScript directory
 ├── FlowChart/                 # Folder for flowchart-related programming tasks
