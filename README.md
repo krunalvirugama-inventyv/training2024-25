@@ -51,6 +51,20 @@ training2024-25/
 │   ├── (12)SumOfNNumber.js    # Code to calculate the sum of N numbers
 │   ├── (13)SinX.js            # Code to calculate sin(x) for a given value
 │   └── README.md              # Documentation for the FlowChart directory
+├── Advent_Of_Code/            # Folder for Advent of Code challenges
+│   ├── Day1/                  # Day 1 of Advent of Code
+│   │   ├── Task1              # Task 1 of Day 1
+│   │   └── Task2              # Task 2 of Day 1
+│   │   └── README.md          # Documentation for Day 1
+│   ├── Day2/                  # Day 2 of Advent of Code
+│   │   ├── Task1              # Task 1 of Day 2
+│   │   └── Task2              # Task 2 of Day 2
+│   │   └── README.md          # Documentation for Day 2
+│   ├── Day3/                  # Day 3 of Advent of Code
+│   │   ├── Task1              # Task 1 of Day 3
+│   │   └── Task2              # Task 2 of Day 3
+│   │   └── README.md          # Documentation for Day 3
+│   └── README.md              # Root documentation for Advent of Code
 └── README.md                  # Root documentation for the entire training project
 
 ```
@@ -58,3 +72,7 @@ training2024-25/
 ### Folder Overview
 1. *HTML_CSS:* This folder contains task related to HTML and CSS.
 2. *FlowChart:* This folder contains JavaScript code implementations for flowcharts, which have been visualized and designed in FigJam.
+3. *Javascript:* This folder contains tasks related to JavaScript programming, including both frontend and backend JavaScript applications.
+4. *Rust_Learning:* This folder contains tasks for learning the Rust programming language, including both basic programs and the Rust Rangers game.
+5. *FlowChart:* This folder contains JavaScript code implementations for flowcharts, which have been visualized and designed in FigJam.
+6. *Advent_Of_Code:* This folder contains tasks related to the Advent of Code programming challenges. Each day contains multiple tasks, and each task has its own subfolder with implementation and documentation.
