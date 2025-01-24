@@ -1,0 +1,31 @@
+Borrowing in Rust
+- one time one mutable refrance pass
+- multiple immutable refrance pass for one time
+
+
+
+
+Vector
+- push
+- remove
+- direct declaration with values    
+
+
+HashMap
+- insert
+- get answer given in form of Option enum Some or None
+- remove
+- clear
+
+
+Iterators   
+- iter() -> immutable refrance to the vector    
+- iter_mut() -> mutable refrance to the vector
+- iter.next() -> Option enum Some or None 
+- into_iter() -> takes ownership of the vector
+- sum() -> sum of all the elements in the vector
+- map() -> takes a closure and creates a new iterator returning the result of the closure for each element value 
+- filter() -> takes a closure and creates a new iterator returning only the elements for which the closure returns true
+
+- iter().collect() -> collect the iterator into a collection
+

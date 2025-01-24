@@ -59,29 +59,70 @@ fn main() {
 
     // println!("vec = {:?}", vec);
 
+    // (4)
+
+    // let vec1 = vec![1, 2, 3];
+
+    // let vec_iter = vec1.iter();
+
+    // let vec_iter2 = vec_iter.map(|x| x + 1);
+
+    // for i in vec_iter2 {
+    //     println!("{i}");
+    // }
+
+    // println!("vec1 : {vec1:?}");
+
+    // // vec_iter not valid than shadow created
+    // let vec_iter = vec1.iter();
+
+    // let vec_iter3 = vec_iter.filter(|x| *x % 2 == 0);
+
+    // for i in vec_iter3 {
+    //     println!("{i}");
+    // }
+
+    // (4)
+
+    let vec1 = vec![1, 2, 3, 4, 5];
+
+    let vec_odd_double_iter = vec1.iter().filter(|x| *x % 2 != 0).map(|x| x*2);  
+    let mut vec_odd = Vec::new();
+    for i in vec_odd_double_iter {
+        println!("{i}");
+        vec_odd.push(i);
+    }
+
+    println!("{vec_odd:?}");
+
+    let vec_odd_double_iter2 = vec1.iter().filter(|x| *x % 2 != 0).map(|x| x*2);
+
+    let vec_odd2: Vec<i32> = vec_odd_double_iter2.collect();
+
+    println!("{vec_odd2:?}");
+
 
     // (5) Vector Store a Multiplale type using enum
 
-    let cell: Vec<SpardeSheetCell> = vec![
-        SpardeSheetCell::Int(10),
-        SpardeSheetCell::Float(0.32),
-        SpardeSheetCell::Text(String::from("Krunal"))
-    ];
+    // let cell: Vec<SpardeSheetCell> = vec![
+    //     SpardeSheetCell::Int(10),
+    //     SpardeSheetCell::Float(0.32),
+    //     SpardeSheetCell::Text(String::from("Krunal"))
+    // ];
 
-    println!("cell = {:?}", cell);
-    println!("cell = {:#?}", cell);
+    // println!("cell = {:?}", cell);
+    // println!("cell = {:#?}", cell);
 
-    match cell.get(1) {
-        Some(SpardeSheetCell::Int(value)) => println!("This is Int Value = {} " , value),
-        Some(value) => println!("This is Other Type = {:?} ",value),
-        None => println!("This is None Value")
-    }
-
+    // match cell.get(1) {
+    //     Some(SpardeSheetCell::Int(value)) => println!("This is Int Value = {} " , value),
+    //     Some(value) => println!("This is Other Type = {:?} ",value),
+    //     None => println!("This is None Value")
+    // }
 }
 
 #[derive(Debug)]
-enum SpardeSheetCell{
+enum SpardeSheetCell {
     Int(i32),
     Float(f64),
-    Text(String)
+    Text(String),
 }
