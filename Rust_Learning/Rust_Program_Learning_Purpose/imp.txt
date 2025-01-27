@@ -29,3 +29,25 @@ Iterators
 
 - iter().collect() -> collect the iterator into a collection
 
+
+
+String
+- push_str
+- replace_reange(start_index,end_index,replace_string_value)
+- str.chars() -> returns the iterator of the characters of the string
+- str.len() -> returns the length of the string
+
+
+
+Slice
+- Slice is kind of refrance to the string does not take ownership of the string
+
+
+Trait
+- Trait is a way to define a set of methods that a type must have to implement the trait
+- Default trait is used to provide default implementation of the methods in the trait
+- implement the trait for a type using impl keyword 
+- funcation create parameter with trait type and then pass the object of the type which implements the trait
+- multiple traits can be implemented for a type 
+- generic type can be used in the trait definition 
+- generic type can be used in the multiple traits 
