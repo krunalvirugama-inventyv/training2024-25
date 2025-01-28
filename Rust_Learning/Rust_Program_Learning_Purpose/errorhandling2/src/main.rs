@@ -18,13 +18,13 @@
 // panic! macro to info which line of code caused the panic.
 
 // // (1) explicit panic
-// fn main() {
-//     println!("Hello, world!");
+fn main() {
+    println!("Hello, world!");
 
-//    // panic!("crash and burn");
+//    panic!("crash and burn");
 
-//     println!("This code will not run");
-// }
+    println!("This code will not run");
+}
 
 // (2)  taking an action that causes our code to panic if the action fails
 // fn main() {
@@ -58,7 +58,7 @@
 
 // fn main() {
    
-//     let result = divided(10,2);
+//     let result = divided(10,0);
 
 //     println!("The result is: {result}");
 // }
@@ -70,25 +70,26 @@
 // (5) recoverable error
 // Divide Program Not Panic
 // handle with unwrap , unwrap_or, match case
-fn main() {
+// fn main() {
    
-    let result = divided(10,0);
+//     let result = divided(10, 0);
 
-    match result {
-        Ok(result) => println!("The result is: {result}"),
-        Err(e) => println!("Error: {e}"),
-    };
+    // match result {
+    //     Ok(result) => println!("The result is: {result}"),
+    //     Err(e) => println!("Error: {e}"),
+    // };
+// }
 
-}
+// fn divided(x: i32, y: i32) -> Result<i32, String> {
+//     if y==0 {   
+//         return Err("Cannot divide by zero".to_string());
+//     }
 
-fn divided(x: i32, y: i32) -> Result<i32, String> {
-    if y==0 {   
-        return Err("Cannot divide by zero".to_string());
-    } 
-
-    Ok(x/y)
-}
+//     Ok(x/y)
+// }
 
 
 // expect method is similar to unwrap method, but it allows us to specify the error message.
 //  ? operator is used to handle recoverable errors. It is used to return the error value from the current function.
+
+
