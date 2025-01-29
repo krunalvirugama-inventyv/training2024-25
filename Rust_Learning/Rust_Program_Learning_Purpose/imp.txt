@@ -51,3 +51,20 @@ Trait
 - multiple traits can be implemented for a type 
 - generic type can be used in the trait definition 
 - generic type can be used in the multiple traits 
+
+
+Closure
+- Closure is a way to define a function in a short form 
+- Closure can capture the variables from the scope in which it is defined 
+- Closure can be passed as a parameter to a function
+- Closure can be returned from a function
+- Closure can be stored in a variable
+- Closure can be used as a parameter to a function
+- Closure can be used as a return type of a function
+- Closure Anymous function that can be stored in a variable or passed as a parameter to a function
+
+Moving Captured Values Out of Closures and the Fn Traits
+3 Type FnOnce, FnMut, Fn
+- FnOnce trait is used to capture the variables from the scope in which it is defined and move them into the closure , because it can only be called once.
+- FnMut  don’t move captured values out of their body , but that might mutate the captured values. These closures can be called more than once.
+- Fn don’t move captured values out of their body and that don’t mutate captured values, in cases such as calling a closure multiple times concurrently.
