@@ -68,3 +68,16 @@ Moving Captured Values Out of Closures and the Fn Traits
 - FnOnce trait is used to capture the variables from the scope in which it is defined and move them into the closure , because it can only be called once.
 - FnMut  don’t move captured values out of their body , but that might mutate the captured values. These closures can be called more than once.
 - Fn don’t move captured values out of their body and that don’t mutate captured values, in cases such as calling a closure multiple times concurrently.
+
+
+
+Smart Pointers
+- Box<T> -> Box is a smart pointer that allows to store the value on the heap instead of the stack 
+
+Enabling Recursive Types with Boxes
+- Box is used to enable recursive types, which are types that have a variant that contains the type itself.
+
+More Information About the Cons List
+- Cons list is a recursive data structure that is used to store a list of elements.
+
+Computing the Size of a Non-Recursive Type

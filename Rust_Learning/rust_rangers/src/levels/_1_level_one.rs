@@ -15,7 +15,7 @@ pub async fn start_level() {
     println!("\n--> Welcome to the Forest of Variables! <---");
 
     println!(
-        "\nOnce upon a time, there was a beautiful forest filled with teak trees, home to countless animals and birds. This forest was under the care and supervision of the Government Authority, which worked tirelessly to protect wildlife and ensure the forest thrived for generations."
+        "\nOnce upon a time, there was a beautiful forest filled with teak trees, home to countless animals and birds. This forest was under the care and supervision of the Government Authority, which worked tirelessly to protect wildlife and ensure the forest thrived for generations."  
     );
 
     println!(
