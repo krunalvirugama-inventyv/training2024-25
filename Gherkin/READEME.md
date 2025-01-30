@@ -11,6 +11,7 @@ Gherkin/
 │   ├── Task1.feature
 │   └── Task1WithBg.feature
 │   └── Task1WithTable.feature
+│   └── README.md
 └── README.md
 ```
 

@@ -2,6 +2,7 @@
 
 # Project Folder Structure
 
+
 This document outlines the folder structure used in this project.
 
 ## Folder Structure
@@ -51,6 +52,17 @@ training2024-25/
 │   ├── (12)SumOfNNumber.js    # Code to calculate the sum of N numbers
 │   ├── (13)SinX.js            # Code to calculate sin(x) for a given value
 │   └── README.md              # Documentation for the FlowChart directory
+├── Gherkin/                   # Contains tasks related to Gherkin feature files
+│   ├── Task1/                 # First task folder
+│   │   ├── Task1.feature      # Main feature file for Task 1
+│   │   ├── Task1WithBg.feature # Feature file with background scenario
+│   │   └── Task1WithTable.feature # Feature file with table scenario
+│   │   └── README.md          # Documentation or instructions for Task 1
+│   └── README.md              # Documentation for the Gherkin directory
+├── Node/                   # Contains tasks related to Node js
+│   ├── Task1/                 # First task cucumber and playwright
+│   │   └── ...
+│   └── README.md              # Documentation for the Node directory
 ├── Advent_Of_Code/            # Folder for Advent of Code challenges
 │   ├── Day1/                  # Day 1 of Advent of Code
 │   │   ├── Task1              # Task 1 of Day 1
