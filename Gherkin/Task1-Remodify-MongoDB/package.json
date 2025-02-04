@@ -1,0 +1,33 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "Task 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "testc" : "npx cucumber-js",
+    "customreport" : "node generateReport.js",
+    "test": "npm run testc && npm run customreport"
+  },
+  "keywords": [
+    "task4",
+    "nodejs"
+  ],
+  "author": "virugamacoder",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.25.9",
+    "@playwright/test": "^1.50.0",
+    "axios": "^1.7.9",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.9.6",
+    "multiple-cucumber-html-reporter": "^3.9.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "playwright": "^1.50.0"
+  }
+}

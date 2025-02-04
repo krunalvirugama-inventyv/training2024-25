@@ -1,0 +1,15 @@
+{
+  "default": {
+    "require": ["features/step_definitions/*.js"],
+    "requireModule": ["@babel/register"],
+    "format": ["html:./cucumber_report/cucumber-report.html", "json:./cucumber_report/cucumber-report.json"],
+    "publishQuiet": true,
+    "publish": true,
+    "dry-run": false,
+    "profile": false,
+    "retry": 2,
+    "backtrace": true,
+    "snippets": true,
+    "parallel": 4
+  }
+}
