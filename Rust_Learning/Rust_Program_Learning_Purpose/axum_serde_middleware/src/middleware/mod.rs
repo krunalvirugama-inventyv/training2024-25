@@ -1,1 +1,1 @@
-pub mod json_extractor_middleware;
+pub mod json_extractor;

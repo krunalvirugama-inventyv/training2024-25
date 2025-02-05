@@ -7,7 +7,7 @@ use axum::{
 use serde::{Deserialize, Serialize};
 use std::{fs::OpenOptions, io::Write, sync::Arc};
 use tokio::sync::Mutex;
-
+use serde_json;
 #[derive(Debug, Deserialize, Serialize, Clone)]
 pub struct User {
     pub first_name: String,
