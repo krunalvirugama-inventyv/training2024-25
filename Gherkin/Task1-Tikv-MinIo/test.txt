@@ -1,0 +1,10 @@
+cucmber
+
+    "backtrace": true,
+
+     "retry": 2,
+
+
+playwright
+
+    

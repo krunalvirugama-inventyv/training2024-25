@@ -1,24 +1,28 @@
-# Task1: Test Automation Project with Couchbase 🚀
+# Task1: Test Automation Project with TiKV and MinIO 🚀
 
 ## 📋 What is Task1?
 
-A test automation project combining **Playwright** and **Cucumber.js** for end-to-end testing, now enhanced with **Couchbase** integration for report storage and retrieval.
+A test automation project combining **Playwright** and **Cucumber.js** for end-to-end testing, now enhanced with **TiKV** and **MinIO** integration for report storage, retrieval, and media management (screenshots and video recordings).
 
 ### Key Features:
 
 - **Playwright**: Browser automation and UI testing.
 - **Cucumber.js**: BDD tests using Gherkin syntax.
 - **Custom Reports**: Script to merge/format results via `generateReport.js`.
-- **Couchbase Integration**: Store and retrieve reports from the Couchbase cloud database.
+- **TiKV Integration**: Store and retrieve reports from the TiKV distributed database.
+- **MinIO Integration**: Upload failure screenshots and video recordings to MinIO.
+- **Failure Handling**: Capture screenshots and video recordings on test failure.
 
 ## 🛠️ Prerequisites
 
 - Node.js v16+ ([Download](https://nodejs.org/))
 - npm (comes with Node.js)
-- Couchbase Cloud
+- TiKV ([Download](https://tikv.org/)) or TiKV Cloud
+- MinIO ([Download](https://min.io/)) or MinIO Cloud
 - Modern browser (Chromium, Firefox, or WebKit)
 
 ## 📂 Project Structure
+
 
 ```
 TASK1/
@@ -47,13 +51,12 @@ TASK1/
 ├── saveReport.js               # Script to save test reports to Couchbase    
 ├── README.md                   # Project documentation
 ```
+## 🚀 How to Run Tests
 
-# 🚀 How to Run Tests
+### 1️⃣ Set Up TiKV & MinIO
+Ensure **TiKV** and **MinIO** are running and properly configured.
 
-## 1️⃣ Set Up Couchbase
-Ensure Couchbase is running and properly configured.
-
-## 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 npm install
@@ -65,11 +68,8 @@ npm install
 npm start
 ```
 
-## 4️⃣ Run Tests
-
-```bash
-npm test
-```
+## Failure Handling
+In the event of a test failure, screenshots and video recordings are captured and uploaded to MinIO. This allows for easier debugging and review of test failures.
 
 ### 🔍 Fetch All Reports
 
@@ -87,7 +87,16 @@ GET /latest-report
 
 This endpoint retrieves the most recently uploaded test report.
 
+### 💻 Failure Handling Implementation
+When a test fails, the following actions are triggered:
+
+- Screenshot Capture: A screenshot is captured of the browser window during the test failure.
+- Video Recording: The video of the failed test execution is recorded and saved.
+- MinIO Upload: Both the screenshot and video are uploaded to the MinIO server for storage.
+- This ensures that detailed failure reports are available for review and debugging.
+
+
 ---
 
-This project now supports Couchbase for enhanced test report management, making it easier to store and retrieve test results programmatically! 🎯
+By integrating TiKV for report management and MinIO for media storage, this project enhances test automation by providing a streamlined approach to report and failure management. 🎯
 

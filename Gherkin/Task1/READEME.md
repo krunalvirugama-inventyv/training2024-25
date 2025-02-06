@@ -44,8 +44,8 @@ TASK1/
 ├── .gitignore                  # Git ignore file to exclude unnecessary files
 ├── cucumber.js                 # Configuration file for Cucumber.js
 ├── generateReport.js           # Script to generate custom reports
-├── index.html                  # Main HTML file (if applicable)
-├── index.js                    # Main JavaScript file (if applicable)
+├── index.html                  
+├── index.js                   
 ├── package-lock.json           # Lock file for npm dependencies
 ├── package.json                # Project configuration file for npm
 ├── playwright.config.js        # Configuration file for Playwright tests

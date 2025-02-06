@@ -1,0 +1,102 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-for-a-product;user-verifies-product-names-in-the-search-results",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "User verifies product names in the search results",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 634686999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the Flipkart website",
+            "match": {
+              "location": "features\\step_definitions\\shopSteps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7008066299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user types \"samsung s10\" in the search bar and clicks \"Search\"",
+            "match": {
+              "location": "features\\step_definitions\\shopSteps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5872735999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the search results should show relevant products",
+            "match": {
+              "location": "features\\step_definitions\\shopSteps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48521099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the first product's name should be similar to the search word \"samsung s10\"",
+            "match": {
+              "location": "features\\step_definitions\\shopSteps.js:94"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 22961200,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.toBe (E:\\EXPLORE\\Inventyv\\Node\\Task1-ClouchBase-MinIo\\node_modules\\playwright\\lib\\matchers\\expect.js:228:37)\n    at World.<anonymous> (E:\\EXPLORE\\Inventyv\\Node\\Task1-ClouchBase-MinIo\\features\\step_definitions\\/shopSteps.js:103:30)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at processImmediate (node:internal/timers:449:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 96136100,
+              "error_message": "Error: EBUSY: resource busy or locked, unlink 'E:\\EXPLORE\\Inventyv\\Node\\Task1-ClouchBase-MinIo\\videos\\7a53e54b04750318d36b0d79336acf1d.webm'\n    at Object.unlinkSync (node:fs:1877:11)\n    at World.<anonymous> (E:\\EXPLORE\\Inventyv\\Node\\Task1-ClouchBase-MinIo\\features\\step_definitions\\/shopSteps.js:131:8)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 277099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-for-a-product",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search for a Product",
+    "tags": [],
+    "uri": "features\\shop.feature"
+  }
+]
