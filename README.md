@@ -93,3 +93,4 @@ training2024-25/
 4. *Rust_Learning:* This folder contains tasks for learning the Rust programming language, including both basic programs and the Rust Rangers game.
 5. *FlowChart:* This folder contains JavaScript code implementations for flowcharts, which have been visualized and designed in FigJam.
 6. *Advent_Of_Code:* This folder contains tasks related to the Advent of Code programming challenges. Each day contains multiple tasks, and each task has its own subfolder with implementation and documentation.
+7. *Gherkin:* This folder contains tasks related to Gherkin testing, including practice tasks and tasks related to different databases and services.
