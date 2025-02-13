@@ -62,7 +62,7 @@ Axum/
 ### User (Super Admin) Routes
 | Route                   | Method | Description                                |
 |-------------------------|--------|---------------------------------------------|
-| `user/login`            | POST   | User login, returns auth token as a cookie |
+| `user/login`            | GET    | User login, returns auth token as a cookie |
 | `user/register_user`    | POST   | User Register as SuperUser                 |
 
 ---
