@@ -35,6 +35,10 @@ training2024-25/
 │   │   ├── .....
 │   ├── rust_rangers/       # Folder for Rust Rangers Game
 │   │   ├── .....
+│   ├── Axum/       # Axum Related Practice and Tasl
+│   │   ├── task1   # task server, routing, middleware, db implementation
+│   │   ├── routing # practice routing
+│   │   ├── hello_world
 │   └── README.md              # Documentation for the JavaScript directory
 ├── FlowChart/                 # Folder for flowchart-related programming tasks
 │   ├── (1)AreaOfCircle.js     # Code to calculate the area of a circle
