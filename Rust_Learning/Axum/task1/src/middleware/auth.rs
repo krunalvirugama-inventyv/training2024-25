@@ -45,7 +45,7 @@ use crate::utils::responce::error_response;
 
 pub async fn auth(
     State(pool): State<MySqlPool>,
-    cookies: Cookies, // Use tower_cookies::Cookies extractor
+    cookies: Cookies, 
     request: Request<Body>,
     next: Next,
 ) -> Response {

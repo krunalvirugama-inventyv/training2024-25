@@ -14,5 +14,5 @@ pub async fn create_routes(pool: MySqlPool) -> Router {
         .with_state(pool)
         .layer(TraceLayer::new_for_http())
         .layer(CookieManagerLayer::new())
-        // .layer(middleware::from_fn(log))
+        .layer(middleware::from_fn(log))
 }

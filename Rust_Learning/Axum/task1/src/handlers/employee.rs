@@ -33,7 +33,6 @@ pub async fn create_employee(
         .execute(&pool)
         .await
     {
-        // Ok(_) => (StatusCode::CREATED, Json("Emp Created successfully")).into_response(),
         Ok(_) => success_response(
             "Employee created successfully",
             Vec::<serde_json::Value>::new(),
