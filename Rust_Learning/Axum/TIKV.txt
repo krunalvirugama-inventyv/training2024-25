@@ -1,0 +1,13 @@
+Scan with limit:
+Using the Scan API, you can scan key-value pairs from TiKV in a range (from a startKey to an endKey).
+
+startKey is inclusive while endKey is exclusive.
+
+To configure the Scan API to return a limited number of key-value pairs, you can use the limit argument.
+
+--------------------------
+
+Scan all data:
+The Scan API only returns a limited number of key-value pairs. If you want to fetch all the data in the range from startKey to endKey
+
+

@@ -37,6 +37,7 @@ training2024-25/
 │   │   ├── .....
 │   ├── Axum/       # Axum Related Practice and Tasl
 │   │   ├── task1   # task server, routing, middleware, db implementation
+│   │   ├── task2   # Multi-threaded User Management Programs
 │   │   ├── routing # practice routing
 │   │   ├── hello_world
 │   └── README.md              # Documentation for the JavaScript directory

@@ -1,0 +1,16 @@
+[package]
+name = "apitest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.8.1", features = ["ws"] }
+axum-streams = "0.20.0"
+cargo-watch = "8.5.3"
+futures = "0.3.31"
+quick-xml = { version = "0.37.2", features = ["serde", "serialize"] }
+reqwest = { version = "0.12.12", features = ["json"] }
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.138"
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-stream = "0.1.17"
