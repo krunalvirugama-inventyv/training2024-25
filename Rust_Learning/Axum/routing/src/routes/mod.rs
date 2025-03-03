@@ -11,6 +11,8 @@ mod set_middleware_custom_header;
 mod always_errors;
 mod request_201;
 mod get_json;
+mod validate_with_serde;
+
 
 use axum::{
     http::Method,
@@ -32,6 +34,7 @@ use tower_http::cors::{Any, CorsLayer};
 use always_errors::always_errors;
 use request_201::request_201;
 use get_json::get_json;
+use validate_with_serde::validate_with_serde;
 
 #[derive(Clone)]
 pub struct SharedData {
@@ -66,5 +69,6 @@ pub fn create_routes() -> Router {
         .layer(cors)
         .route("/always_errors", get(always_errors))
         .route("/request_201",post(request_201))
-        .route("/get_json",get(get_json))   
+        .route("/get_json",get(get_json))
+        .route("/validate_data",post(validate_with_serde))
 }
