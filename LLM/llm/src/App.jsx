@@ -39,7 +39,7 @@ const App = () => {
       });
 
 
-      console.log(res);
+      console.log(res.data);
       
       const botResponse = res.data.choices?.[0]?.message?.content || "No response from AI.";
 
@@ -47,7 +47,6 @@ const App = () => {
         ...prevHistory,
         { user: userInput, bot: botResponse },
       ]);
-      
     } catch (error) {
       console.error("Error:", error);
       setHistory((prevHistory) => [
