@@ -12,6 +12,7 @@ mod always_errors;
 mod request_201;
 mod get_json;
 mod validate_with_serde;
+mod custom_json_extractor;
 
 
 use axum::{
@@ -35,6 +36,7 @@ use always_errors::always_errors;
 use request_201::request_201;
 use get_json::get_json;
 use validate_with_serde::validate_with_serde;
+use custom_json_extractor::custom_json_extractor;   
 
 #[derive(Clone)]
 pub struct SharedData {
@@ -71,4 +73,5 @@ pub fn create_routes() -> Router {
         .route("/request_201",post(request_201))
         .route("/get_json",get(get_json))
         .route("/validate_data",post(validate_with_serde))
+        .route("/custom_json_extractor",post(custom_json_extractor))
 }

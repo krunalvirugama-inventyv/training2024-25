@@ -38,7 +38,6 @@ const App = () => {
         },
       });
 
-
       console.log(res.data);
       
       const botResponse = res.data.choices?.[0]?.message?.content || "No response from AI.";
